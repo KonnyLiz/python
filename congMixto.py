@@ -12,6 +12,9 @@ for i in range(0, n):
     xnew = (a * x + c) % m
     x = int(xnew)
     print xnew
+    print a
+    print x
+    print c
     if valor_inicial == x:
         print "se repiten los valores despues del numero:", x
         break
